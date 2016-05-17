@@ -22,7 +22,7 @@ public class AppTest
 
     public void beforeMethod()
     {
-		System.out.println("Inside before method..");
+		System.out.println("Inside before method....");
 	    driver = new FirefoxDriver();
 		driver.navigate().to("http://www.google.com");
     }
